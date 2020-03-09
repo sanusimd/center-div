@@ -19,7 +19,7 @@ body {
 }
 
  .inner-div { 
-    background-color: black;
+    background-color: #ffffff;
     width: 200px;
     height: 200px;
     position: absolute; 
@@ -40,7 +40,7 @@ body {
     align-items: center;
 }
 .flexbox-inner-div{
-    background-color: hotpink;
+    background-color: #ffffff;
     width: 200px;
     height: 200px;
 }
