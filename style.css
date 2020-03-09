@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.box {
+    margin-bottom: 100px;   
+}
+
+/* //////////////////////////////////////// */
+/* Center with Position */
+.absolute {
+    background-color: aqua;
+    margin: 0 auto;
+    height: 400px;
+    width: 400px;
+    position: relative;
+}
+
+ .inner-div { 
+    background-color: black;
+    width: 200px;
+    height: 200px;
+    position: absolute; 
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+/* //////////////////////////////////////// */
+/* Center with Flexbox */
+.flexbox{
+    background-color: green;
+    margin: 0 auto;
+    height: 400px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.flexbox-inner-div{
+    background-color: hotpink;
+    width: 200px;
+    height: 200px;
+}
+
+/* //////////////////////////////////////// */
+/* Center with Grid */
+
+.grid{
+    background-color: indigo;
+    margin: 0 auto;
+    width: 400px;
+    height: 400px;
+    display: grid;
+}
+.grid-inner-div{
+    background-color: white;
+    width: 200px;
+    height: 200px;
+    justify-self: center;
+    align-self: center;
+}
+
